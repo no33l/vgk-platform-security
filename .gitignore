@@ -1,0 +1,22 @@
+# Build
+**/x64/
+**/x86/
+**/Debug/
+**/Release/
+**/*.obj
+**/*.pdb
+**/*.lib
+**/*.exp
+**/*.sys
+**/*.dll
+**/*.exe
+.vs/
+*.user
+*.suo
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

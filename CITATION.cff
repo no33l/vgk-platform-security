@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "VGK Platform Security Stack - independent reverse-engineering reference"
+message: "If you reference this material, cite it as below."
+type: software
+authors:
+  - family-names: "noel"
+    alias: no33l
+    website: "https://github.com/no33l"
+year: 2026
+version: "1.0.0"
+abstract: >-
+  Static, annotated reconstruction of the platform-integrity, measurement and
+  attestation surface inside Riot Vanguard's kernel driver (vgk_rm.sys). Covers
+  TPM command construction and PCR measurement, EK certificate handling, quote
+  and credential flows, Secure Boot / UEFI / BCD readers, HVCI / VBS probes,
+  composite hardware identifiers, debug-register paths, emulator and drift
+  detection, crypto verification, evidence packets and self-guarding. Produced
+  privately, handed to the vendor, published for informational use only.
+keywords:
+  - reverse engineering
+  - windows kernel
+  - platform security
+  - tpm
+  - attestation
+  - secure boot
+  - hvci
+  - static analysis
+license: other
+repository-code: "https://github.com/no33l/vgk-platform-security"

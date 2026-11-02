@@ -1,0 +1,22 @@
+Copyright (c) 2026 noel
+
+All rights reserved.
+
+This repository contains educational reverse-engineering notes and
+reconstructed reference source derived from independent analysis of
+publicly loaded system software. Redistribution, commercial use, or use
+to circumvent security or anti-cheat systems is not authorized without
+prior written permission from the copyright holder.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Notes on intent:
+
+- The material is an informational reading reference. It is not a driver,
+  not a runtime tool, and not intended to be used as a bypass or a
+  replacement for any part of the described stack.
+- The analysis was produced privately and was handed to the vendor
+  (Riot Games, Vanguard team) before publication. No fix, endorsement or
+  review by the vendor is implied.
+- No third-party binaries are redistributed. Sample images are supplied by
+  the reader.
